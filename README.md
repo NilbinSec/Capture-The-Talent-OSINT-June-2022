@@ -1,7 +1,7 @@
 # Capture-The-Talent-OSINT-June-2022
 <b>Capture The Talent June 2022 OSINT CTF Writeup</b>
 
-This repo covers 2PAC's experiences in the Capture The Talent OSINT CTF that occured in June 2020. The CTF was made by K3N4D4M5 and comprised of 6 questions that had to be completed sequentially. For a unexpected CTF, it was great!
+This repo covers 2PAC's experiences in the Capture The Talent OSINT CTF that occured in June 2020. The CTF was made by K3N4D4M5 and comprised of 6 questions that had to be completed sequentially. For an unexpected CTF, it was great!
 
 # Results
 2PAC placed First overall after completing the 6 questions the fastest. This is his first time coming in 1st!. The prize for First Place was: £20 donation in your name to The Cyber Helpline AND a CTF ticket (or £20 voucher for the merch shop if you've got one already)  AND some stickers. 
@@ -98,11 +98,11 @@ _What plant did they post about?_
 Flag: **WildGarlic**
 
 **Methodology**
-With the hint that we should be looking at Social Media and I specific location, I tend to start with Twitter because it is easy to search. Here is the search string I used: _geocode:55.975110,-3.193501,0.5km until:2022-06-30 since:2022-02-15_ The Geocoord is the cent of Victoria Park and will cover out about a block and a half in all directions around the park. The third tweet with this string was:
+With the hint that we should be looking at Social Media and in a specific location, I tend to start with Twitter because it is easy to search by location (which many other social media sites have begun to stop. Similar to Google Dorking, Twitter's search allows you to perform advanced searches to dig down to exactly what you want. Rather than doing research on paths near the park or make guesses about the plant and its smell it is better to begin by limiting the area you are looking at. Twitter allows you to geofence a search. Here is the search string I used: _geocode:55.975110,-3.193501,0.5km until:2022-06-30 since:2022-02-15_ The Geocoord is the center of Victoria Park and will cover out about a block and a half in all directions around the park; the dates covered spring time plus a little overlap because I didn't want to get caught up in the true quarter of spring when the weather effects of spring are often felt much earlier in March. The third tweet with this string was:
 
 ![image](https://user-images.githubusercontent.com/85370905/175778861-3595cfd8-6b50-4ffe-8929-a79beeecee88.png)
 
-I will mention I did waste a few minutes with the wrong search string. I initially thought this was another COVID lockdown question and was looking at photos from Spring 2020 before closely rereading the prompt. Always remember to read the prompt especially when the questions are related in different ways.
+I will mention I did waste a few minutes with the wrong search string. I initially thought this was another COVID lockdown question and was looking at photos from Spring 2020 before closely rereading the prompt. Always remember to read the prompt especially when the questions are related in different ways. One way that could help you visualize why this way works so well would be to consider Trace Labs Search Party CTFs; If someone has gone missing, limiting tweets to only those that occured in an area of disappearance during a specific time frame could reveal images that have the missing person in them. OSINT searches that want you to scour social media can often be thought of as a crime scene investigation. Using the proper search string can provide significant assistance in only seeing the tweets _you_ want to see. Searches by keywords often leave an investigator combing through large datasets for the pin in the haystack.
 
 # Who we are: ![nilbin-sec-orb3x3](https://user-images.githubusercontent.com/85370905/121083132-0ad60580-c7ad-11eb-90d8-ed91622db41f.png)
 Nilbin_Sec is a recently formed hacker group formed out of some of the hardcore fans of Nathan Barnatt's Pseudo-Alternate Reality Game character Dad. Currently we focus our pursuits on OSINT, cryptography, web exploitation, and custom hardware hacking. We can be reached at: nilbinsec (at) gmail (dot) com. If you are interested in learning more about the Dad universe, check out his youtube channel at: https://www.youtube.com/channel/UCFzpLhfgdPPVJ_7YrVO-GSw

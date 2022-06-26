@@ -15,7 +15,7 @@ _What is the name of this park?_
 
 ![image](https://user-images.githubusercontent.com/85370905/175777886-34a18906-b574-45b7-9b21-c2123b54d12c.png)
 
-Flag: **VictoriaPark**
+Flag: **Victoria**
 
 **Methodology**
 For once, Google Lens worked as advertised and Yandex wasn't too helpful during a CTF. Locking Google Lens on just the truck returned multiple results from Jac's Coffee Facebook page. After comparing the images it was clear where the location was.
